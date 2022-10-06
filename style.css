@@ -1,0 +1,44 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+   /* gradient text for modern browsers  */
+h1{
+    background-image: linear-gradient(#e66465, #616ce8);
+    background-clip: text;
+    color: transparent;
+    font-size: 50px;
+}
+
+
+
+h1, h3{
+    font-family: Geneva, Tahoma, sans-serif;
+} 
+.header-color{
+    color: #fffff1ff;
+
+}
+
+
+/****** link stules *******/
+a{
+    text-decoration: none;
+    color:rgb(40, 175, 166);
+}
+
+
+/***** Background styles ******/
+body{
+    background-color: #d7d7d1;
+}
+
+header{
+    background-image:url("https://images.unsplash.com/photo-1470125634816-ede3f51bbb42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8c3Vuc2V0JTIwcGFub3JhbWF8ZW58MHx8MHx8&w=1000&q=80");
+    background-size: cover;
+}
+
+article{
+    background: linear-gradient(#ffffff, #d7d7d1);
+}
