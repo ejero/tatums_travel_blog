@@ -1,14 +1,30 @@
+/********* Colors **********/
+
+/* 
+#e66465 - Light red
+#616ce8 - Pruple Blue
+#28afa6 - Turquoise
+#ffffff - White
+#d7d7d1 - Gray 
+
+*/
+
+
+
+
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
 
 
-   /* gradient text for modern browsers  */
+   /* Gradient text for modern browsers  */
 h1{
     background-image: linear-gradient(#e66465, #616ce8);
     background-clip: text;
     color: transparent;
     font-size: 50px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 
@@ -17,7 +33,7 @@ h1, h3{
     font-family: Geneva, Tahoma, sans-serif;
 } 
 .header-color{
-    color: #fffff1ff;
+    color: #ffffff;
 
 }
 
@@ -25,7 +41,7 @@ h1, h3{
 /****** link stules *******/
 a{
     text-decoration: none;
-    color:rgb(40, 175, 166);
+    color:#28afa6;
 }
 
 
@@ -39,6 +55,12 @@ header{
     background-size: cover;
 }
 
-article{
+/* article{
     background: linear-gradient(#ffffff, #d7d7d1);
-}
+} */
+
+/*********** Image Syles ***********/
+
+/* img{
+    display: block;
+} */
